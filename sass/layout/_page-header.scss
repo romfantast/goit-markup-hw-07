@@ -1,0 +1,86 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 93px;
+}
+
+.logo {
+  font-family: var(--accent-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.blue-part {
+  color: var(--accent-color);
+}
+.black-part {
+  color: var(--black-color);
+}
+
+.site-list {
+  display: flex;
+  column-gap: 50px;
+}
+
+.site-item {
+  position: relative;
+}
+
+.contacts-list {
+  margin-left: auto;
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+}
+
+.header-link {
+  display: block;
+  padding: 24px 0;
+}
+
+.active-site-link {
+  color: var(--accent-color);
+  position: relative;
+}
+
+.active-site-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  margin-bottom: -1px;
+
+  bottom: 0;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
+.contact {
+  color: var(--gray-color);
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.icon-contact {
+  fill: #757575;
+}
+
+.link:hover .icon-contact,
+.link:focus .icon-contact {
+  fill: var(--accent-color);
+  stroke: var(--accent-color);
+}
