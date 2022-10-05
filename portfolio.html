@@ -19,26 +19,26 @@
 <body>
 	<!-- header block-->
 	<header class="header">
-		<div class="header-container container">
-			<nav class="header-nav">
-				<a class="logo" href="./index.html"><span class="blue-part">Web</span><span
-						class="black-part">Studio</span></a>
+		<div class="header__container container">
+			<nav class="navigation">
+				<a class="logo" href="./index.html"><span class="logo__blue-part">Web</span><span
+						class="logo__black-part">Studio</span></a>
 				<ul class="site-list list">
-					<li><a class="header-link site-link link" href="./index.html">Студія</a></li>
-					<li><a class="header-link site-link active-site-link link" href="./portfolio.html">Портфоліо</a>
+					<li><a class="site-list__link link" href="./index.html">Студія</a></li>
+					<li><a class="site-list__link site-list__link_active  link" href="./portfolio.html">Портфоліо</a>
 					</li>
-					<li><a class="header-link site-link link" href="">Контакти</a></li>
+					<li><a class="site-list__link  link" href="">Контакти</a></li>
 				</ul>
 			</nav>
 			<ul class="contacts-list list">
-				<li><a class="link contact" href="mailto:info@devstudio.com">
-						<svg class="icon-contact" width="16" height="12">
+				<li><a class="contacts-list__link link" href="mailto:info@devstudio.com">
+						<svg class="contacts-list__icon" width="16" height="12">
 							<use href="./images/icons-no-optomization.svg#icon-mail"></use>
 						</svg>
 						info@devstudio.com
 					</a></li>
-				<li><a class="link contact" href="tel:+380961111111">
-						<svg class="icon-contact" width="16" height="12">
+				<li><a class="contacts-list__link link" href="tel:+380961111111">
+						<svg class="contacts-list__icon" width="16" height="12">
 							<use href="./images/icons.svg#icon-phone"></use>
 						</svg>
 						+38 096 111 11 11</a></li>
@@ -259,8 +259,8 @@
 	<footer class="footer">
 		<div class="container footer-block">
 			<div class="footer-contact-block">
-				<a class="logo footer-logo" href="./index.html"><span class="blue-part">Web</span><span
-						class="white-part">Studio</span></a>
+				<a class="logo footer-logo" href="./index.html"><span class="logo__blue-part">Web</span><span
+						class="logo__white-part">Studio</span></a>
 				<address>
 					<ul class="address-list">
 						<li class="address-item"><a class="footer-map"
@@ -274,33 +274,35 @@
 					</ul>
 				</address>
 			</div>
+
+
 			<div class="footer-social-block">
 				<h2 class='title-call'><strong>Приєднуйтесь</strong></h2>
-				<ul class="footer-social-list list">
-					<li class="footer-social-item">
-						<a href="" class="footer-social-link">
-							<svg class="footer-social-icon">
+				<ul class="social-list list">
+					<li class="social-list__item">
+						<a href="" class="social-list__link social-list__link-with-bg">
+							<svg class="social-list__icon social-list__icon_white-with-bg">
 								<use href="./images/icons.svg#icon-instagram"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="footer-social-item">
-						<a href="" class="footer-social-link">
-							<svg class="footer-social-icon">
+					<li class="social-list__item">
+						<a href="" class="social-list__link social-list__link-with-bg">
+							<svg class="social-list__icon social-list__icon_white-with-bg">
 								<use href="./images/icons.svg#icon-twitter"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="footer-social-item">
-						<a href="" class="footer-social-link">
-							<svg class="footer-social-icon">
+					<li class="social-list__item">
+						<a href="" class="social-list__link social-list__link-with-bg">
+							<svg class="social-list__icon social-list__icon_white-with-bg">
 								<use href="./images/icons.svg#icon-facebook"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="footer-social-item">
-						<a href="" class="footer-social-link">
-							<svg class="footer-social-icon">
+					<li class="social-list__item">
+						<a href="" class="social-list__link social-list__link-with-bg">
+							<svg class="social-list__icon social-list__icon_white-with-bg">
 								<use href="./images/icons.svg#icon-linkedin"></use>
 							</svg>
 						</a>
@@ -308,16 +310,17 @@
 				</ul>
 			</div>
 
-			<div class="footer-form-block">
+			<div class="subscribe-form-block">
 				<p class="title-call">
-					<label for="footer-form-input"><strong>Підпишіться на розсилку</strong></label>
+					<label for="subscribe-form__input"><strong>Підпишіться на розсилку</strong></label>
 				</p>
 
-				<form class=" footer-form">
-					<input type="email" class="footer-form-input" id="footer-form-input" placeholder="E-mail"
+				<form class="subscribe-form">
+					<input type="email" class="subscribe-form__input" id="subscribe-form__input" placeholder="E-mail"
 						name="user_email">
-					<button class="btn footer-form-btn" type="submit"><span class="footer-btn-inner-wrapper">Підписатися
-							<svg class="footer-form-icon-wrapper" width="28" height="28">
+					<button class="btn subscribe-form__btn" type="submit"><span
+							class="subscribe-form__inner-wrapper">Підписатися
+							<svg class="subscribe-form__icon-wrapper" width="28" height="28">
 								<use class="footer-form-icon" href="./images/icons.svg#icon-send"></use>
 							</svg>
 						</span>
