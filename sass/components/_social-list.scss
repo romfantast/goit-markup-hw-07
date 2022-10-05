@@ -32,21 +32,21 @@
 
   //   modificators for social link and social icon
 
-  &__svg_gray-no-bg {
+  &__svg_gray {
     fill: #afb1b8;
   }
 
-  &__svg_white-with-bg {
+  &__svg_white {
     fill: var(--white-color);
   }
 
-  &__link-with-bg {
+  &__link-white {
     background-color: rgba(255, 255, 255, 0.1);
   }
 }
 
-.social-item__link:hover .social-item__svg_gray-no-bg,
-.social-item__link:focus .social-item__svg_gray-no-bg {
+.social-item__link:hover .social-item__svg_gray,
+.social-item__link:focus .social-item__svg_gray {
   fill: #ffffff;
 }
 
