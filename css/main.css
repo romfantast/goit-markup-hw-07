@@ -752,8 +752,8 @@ body {
   border: 1px solid var(--accent-color);
 }
 
-.client-list__link:hover .client-list__icon,
-.client-list__link:focus .client-list__icon {
+.clients-list__link:hover .clients-list__icon,
+.clients-list__link:focus .clients-list__icon {
   fill: var(--accent-color);
 }
 
